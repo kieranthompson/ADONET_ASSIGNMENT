@@ -45,9 +45,9 @@ new_guitar_color GUITARS.COLOR%type,
 new_guitar_skin_pattern GUITARS.SKIN_PATTERN%type
 )
 as
-begin insert into GUITARS
-(GUITAR_ID, MANUFACTURER, GUITAR_MODEL, PRICE, QUANTITY, COLOR, SKIN_PATTERN)
-values
+begin insert into GUITARS 
+(GUITAR_ID, MANUFACTURER, GUITAR_MODEL, PRICE, QUANTITY, COLOR, SKIN_PATTERN) 
+values 
 ( new_guitar_id, new_guitar_manufacturer, new_guitar_model, new_guitar_price, new_guitar_quantity, new_guitar_color, new_guitar_skin_pattern);
 Commit;
 exception
