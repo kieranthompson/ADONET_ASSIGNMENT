@@ -1,0 +1,26 @@
+
+SQL> connect system/system
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+Connected.
+SQL> connect hr/hr
+ERROR:
+ORA-28000: the account is locked
+
+
+Warning: You are no longer connected to ORACLE.
+SQL> connect system/system;
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+Connected.
+SQL> create user guitarstore identified by password;
+
+User created.
+
+SQL> grant create session, create table, create procedure to guitarstore;
+
+Grant succeeded.

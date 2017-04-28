@@ -1,0 +1,73 @@
+
+SQL*Plus: Release 11.2.0.2.0 Production on Fri Apr 28 12:11:11 2017
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+SQL> connect system/system
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+Connected.
+SQL> connect hr/hr
+ERROR:
+ORA-28000: the account is locked
+
+
+Warning: You are no longer connected to ORACLE.
+SQL> connect system/system;
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+Connected.
+SQL> create user guitarstore identified by password;
+
+User created.
+
+SQL> grant create session, create table, create procedure to guitarstore;
+
+Grant succeeded.
+
+SQL> connect system/system;
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+Connected.
+SQL> alter user guitarstore quota 100m on system;
+
+User altered.
+
+SQL> create user guitarstore_employee identified by password;
+
+User created.
+
+SQL> grant create sesssion to guitarstore_employee;
+grant create sesssion to guitarstore_employee
+      *
+ERROR at line 1:
+ORA-00990: missing or invalid privilege
+
+
+SQL> grant create session to guitarstore_employee;
+
+Grant succeeded.
+
+SQL> grant execute on guitarstore.ADD_GUITAR to guitarstore_employee;
+
+Grant succeeded.
+
+SQL> grant execute on guitarstore.EDIT_GUITAR to guitarstore_employee;
+
+Grant succeeded.
+
+SQL> grant execute on guitarstore.DELETE_GUITAR to guitarstore_employee;
+
+Grant succeeded.
+
+SQL> grant select on guitarstore.guitars to guitarstore_employee;
+
+Grant succeeded.
+
+SQL>

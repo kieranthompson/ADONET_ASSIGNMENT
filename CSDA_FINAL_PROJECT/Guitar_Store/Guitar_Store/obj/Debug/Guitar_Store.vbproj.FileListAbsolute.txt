@@ -1,0 +1,12 @@
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\bin\Debug\Guitar_Store.exe.config
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\bin\Debug\Guitar_Store.exe
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\bin\Debug\Guitar_Store.pdb
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\bin\Debug\Guitar_Store.xml
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\bin\Debug\Oracle.DataAccess.dll
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.vbprojResolveAssemblyReference.cache
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.Form1.resources
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.Resources.resources
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.vbproj.GenerateResource.Cache
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.exe
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.xml
+X:\Visual Studio Projects\CSDA_FINAL_PROJECT\Guitar_Store\Guitar_Store\obj\Debug\Guitar_Store.pdb
